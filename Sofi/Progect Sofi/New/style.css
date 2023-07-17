@@ -1,0 +1,293 @@
+.background{
+    background-image: url('Picture/background/background.jpg');
+    background-size:auto;
+    background-repeat: auto;
+}
+
+.TT{
+    display: inline-block;
+}
+
+img {
+    float: left;  
+}
+.button{
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+}
+
+
+.button1 {
+  display: inline-block ;
+  text-decoration: none ;
+  background-color: #8515aa ;
+  color: #fefefe ;
+  border: 3px solid #c313ac ;
+  border-radius: 5px ;
+  font-size: 16px ;
+  padding: 15px 50px ; 
+  transition: all 0.8s ease ;
+  width: 150px;
+  height: 150px;
+}
+.button1:hover{
+  text-decoration: none ; 
+  background-color: rgb(61, 158, 199) ;
+  color: #ffeded ;
+  border-color: #006089 ;
+}
+
+.button1{
+  text-align: center;
+}
+
+h1{
+    font-size: 60px;
+    display: flex;
+}
+.TT>h1{
+    text-align: center;
+}
+
+.inf{
+    margin: auto;
+    font-size: 39px;
+    font-style: italic;
+    color: #d11cc8;
+}
+
+.examples{
+    text-align: center;
+}
+
+
+.hh{
+    margin-top: 40px;
+    display: inline-block;
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+.flip-container {
+  perspective: 1000px; /* Создание эффекта 3D-перспективы */
+  width: 400px; /* Задайте размер контейнера */
+  height: 400px;
+  display: inline-block;
+  margin: 15px;
+}
+
+.flipper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d; /* Сохранение 3D-перспективы для потомков */
+  transition: transform 0.6s; /* Добавление плавного перехода */
+}
+
+.front, .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; /* Скрытие задней стороны элемента */
+}
+
+.front {
+  z-index: 2; /* Передняя сторона должна находиться поверх задней стороны */
+}
+
+.back {
+  transform: rotateY(180deg); /* Поворот элемента на 180 градусов */
+  background-color: #73086e;
+}
+
+.flip-container:hover .flipper {
+  transform: rotateY(180deg); /* Поворот контейнера при наведении курсора */
+}
+
+.front img {
+  width: 100%;
+  height: 100%;
+}
+
+.back p {
+  text-align: center;
+  padding-top: 20%;
+  font-size: 20px;
+  
+}
+
+.bloc1{
+  text-align: center;
+}
+
+.bloc2{
+  text-align: center;
+}
+
+
+
+@media (max-width: 600px) {
+  .flip-container {
+    perspective: 1000px; /* Создание эффекта 3D-перспективы */
+    width: 170px; /* Задайте размер контейнера */
+    height: 160px;
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .flipper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d; /* Сохранение 3D-перспективы для потомков */
+    transition: transform 0.6s; /* Добавление плавного перехода */
+  }
+  
+  .front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Скрытие задней стороны элемента */
+  }
+  
+  .front {
+    z-index: 2; /* Передняя сторона должна находиться поверх задней стороны */
+  }
+  
+  .back {
+    transform: rotateY(180deg); /* Поворот элемента на 180 градусов */
+    background-color: #73086e;
+  }
+  
+  .flip-container:hover .flipper {
+    transform: rotateY(180deg); /* Поворот контейнера при наведении курсора */
+  }
+  
+  .front img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .back p {
+    text-align: center;
+    padding-top: 20%;
+    font-size: 20px;
+    
+  }
+}
+
+
+
+@media (min-width: 600px) and (max-width: 880px) {
+
+  .flip-container {
+    perspective: 1000px; /* Создание эффекта 3D-перспективы */
+    width: 220px; /* Задайте размер контейнера */
+    height: 220px;
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .flipper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d; /* Сохранение 3D-перспективы для потомков */
+    transition: transform 0.6s; /* Добавление плавного перехода */
+  }
+  
+  .front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Скрытие задней стороны элемента */
+  }
+  
+  .front {
+    z-index: 2; /* Передняя сторона должна находиться поверх задней стороны */
+  }
+  
+  .back {
+    transform: rotateY(180deg); /* Поворот элемента на 180 градусов */
+    background-color: #73086e;
+  }
+  
+  .flip-container:hover .flipper {
+    transform: rotateY(180deg); /* Поворот контейнера при наведении курсора */
+  }
+  
+  .front img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .back p {
+    text-align: center;
+    padding-top: 20%;
+    font-size: 20px;
+    
+  }
+}
+
+
+
+@media (max-width: 400px) {
+  .flip-container {
+    perspective: 1000px; /* Создание эффекта 3D-перспективы */
+    width: 100px; /* Задайте размер контейнера */
+    height: 100px;
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .flipper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d; /* Сохранение 3D-перспективы для потомков */
+    transition: transform 0.6s; /* Добавление плавного перехода */
+  }
+  
+  .front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Скрытие задней стороны элемента */
+  }
+  
+  .front {
+    z-index: 2; /* Передняя сторона должна находиться поверх задней стороны */
+  }
+  
+  .back {
+    transform: rotateY(180deg); /* Поворот элемента на 180 градусов */
+    background-color: #73086e;
+  }
+  
+  .flip-container:hover .flipper {
+    transform: rotateY(180deg); /* Поворот контейнера при наведении курсора */
+  }
+  
+  .front img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .back p {
+    text-align: center;
+    padding-top: 20%;
+    font-size: 20px;
+    
+  }
+}

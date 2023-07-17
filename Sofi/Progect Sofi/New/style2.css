@@ -1,0 +1,79 @@
+.background {
+    background-color: rebeccapurple;
+}
+
+.trifle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Размещать элементы по центру по оси X */
+    height: 100vh;
+    /* Установить высоту контейнера на высоту видимого окна браузера */
+    margin: 90px;
+
+}
+
+
+
+.trapezoid_1 {
+    width: 240px;
+    border-top: 40px solid rgb(177, 178, 196);
+    border-left: 10px solid pink;
+    border-right: 10px solid pink;
+}
+
+.trapezoid_2 {
+    width: 220px;
+    border-top: 40px solid rgb(177, 178, 196);
+    border-left: 10px solid pink;
+    border-right: 10px solid pink;
+
+}
+
+.trapezoid_3 {
+    width: 200px;
+    border-top: 40px solid rgb(177, 178, 196);
+    border-left: 10px solid pink;
+    border-right: 10px solid pink;
+
+}
+
+.trapezoid_4 {
+    width: 180px;
+    border-top: 40px solid rgb(177, 178, 196);
+    border-left: 10px solid pink;
+    border-right: 10px solid pink;
+
+}
+
+.trapezoid_5 {
+    width: 160px;
+    border-top: 40px solid rgb(177, 178, 196);
+    border-left: 10px solid pink;
+    border-right: 10px solid pink;
+
+}
+
+.trapezoid_6 {
+    width: 140px;
+    border-top: 40px solid rgb(177, 178, 196);
+    border-left: 10px solid pink;
+    border-right: 10px solid pink;
+
+}
+
+.trapezoid_7 {
+    width: 120px;
+    border-top: 40px solid rgb(177, 178, 196);
+    border-left: 10px solid pink;
+    border-right: 10px solid pink;
+
+}
+
+.trapezoid_8 {
+    width: 100px;
+    border-top: 40px solid rgb(177, 178, 196);
+    border-left: 10px solid pink;
+    border-right: 10px solid pink;
+
+}
