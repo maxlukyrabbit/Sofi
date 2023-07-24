@@ -18,11 +18,7 @@
 
 
 
-.g1{
-    display: flex;
-  align-items: center; /* выравнивание элементов по вертикали */
 
-}
 
 
 .trapezoid_1 {
@@ -36,17 +32,7 @@
 
 }
 
-.trapezoid_1.changeColor_trapezoid_1_button1 {
-    border-top: 40px solid rgb(17, 21, 102);
-}
 
-.trapezoid_1.changeColor_trapezoid_1_button1 {
-    border-top: 40px solid rgb(102, 17, 54);
-}
-
-.trapezoid_1.changeColor_trapezoid_1_button1 {
-    border-top: 40px solid rgb(57, 102, 17);
-}
 
 
 
