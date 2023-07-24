@@ -15,12 +15,40 @@
 
 
 
+
+
+
+.g1{
+    display: flex;
+  align-items: center; /* выравнивание элементов по вертикали */
+
+}
+
+
 .trapezoid_1 {
     width: 240px;
     border-top: 40px solid rgb(177, 178, 196);
     border-left: 10px solid pink;
     border-right: 10px solid pink;
+    display: flex;
+    align-items: center;
+    /* выравнивание элементов по вертикали */
+
 }
+
+.trapezoid_1.changeColor_trapezoid_1_button1 {
+    border-top: 40px solid rgb(17, 21, 102);
+}
+
+.trapezoid_1.changeColor_trapezoid_1_button1 {
+    border-top: 40px solid rgb(102, 17, 54);
+}
+
+.trapezoid_1.changeColor_trapezoid_1_button1 {
+    border-top: 40px solid rgb(57, 102, 17);
+}
+
+
 
 .trapezoid_2 {
     width: 220px;
