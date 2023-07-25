@@ -7,87 +7,135 @@
     flex-direction: column;
     align-items: center;
     /* Размещать элементы по центру по оси X */
-    height: 100vh;
     /* Установить высоту контейнера на высоту видимого окна браузера */
-    margin: 90px;
+    margin: 30px;
 
 }
-
-
-
-
-
-
-
-
 
 .trapezoid_1 {
-    width: 240px;
-    border-top: 40px solid rgb(177, 178, 196);
-    border-left: 10px solid pink;
-    border-right: 10px solid pink;
-    display: flex;
-    align-items: center;
-    /* выравнивание элементов по вертикали */
+    width: 280px;
+    border-top: 80px solid rgb(177, 178, 196);
+    border-left: 20px solid pink;
+    border-right: 20px solid pink;
 
 }
-
-
 
 
 
 .trapezoid_2 {
-    width: 220px;
+    width: 240px;
     border-top: 40px solid rgb(177, 178, 196);
-    border-left: 10px solid pink;
-    border-right: 10px solid pink;
+    border-left: 20px solid pink;
+    border-right: 20px solid pink;
 
 }
 
 .trapezoid_3 {
     width: 200px;
-    border-top: 40px solid rgb(177, 178, 196);
-    border-left: 10px solid pink;
-    border-right: 10px solid pink;
+    border-top: 80px solid rgb(177, 178, 196);
+    border-left: 20px solid pink;
+    border-right: 20px solid pink;
 
 }
+
+
 
 .trapezoid_4 {
-    width: 180px;
-    border-top: 40px solid rgb(177, 178, 196);
-    border-left: 10px solid pink;
-    border-right: 10px solid pink;
-
-}
-
-.trapezoid_5 {
     width: 160px;
-    border-top: 40px solid rgb(177, 178, 196);
-    border-left: 10px solid pink;
-    border-right: 10px solid pink;
+    border-top: 80px solid rgb(177, 178, 196);
+    border-left: 20px solid pink;
+    border-right: 20px solid pink;
 
 }
 
-.trapezoid_6 {
-    width: 140px;
-    border-top: 40px solid rgb(177, 178, 196);
-    border-left: 10px solid pink;
-    border-right: 10px solid pink;
-
+.biscuit_1P {
+    font-size: 25px;
+    font-style: italic;
+    color: rgb(32, 143, 183);
+    font-family: Arial;
 }
 
-.trapezoid_7 {
-    width: 120px;
-    border-top: 40px solid rgb(177, 178, 196);
-    border-left: 10px solid pink;
-    border-right: 10px solid pink;
-
+.creamP {
+    font-size: 25px;
+    font-style: italic;
+    color: rgb(32, 143, 183);
+    font-family: Arial;
 }
 
-.trapezoid_8 {
-    width: 100px;
-    border-top: 40px solid rgb(177, 178, 196);
-    border-left: 10px solid pink;
-    border-right: 10px solid pink;
+.interlayerP {
+    font-size: 25px;
+    font-style: italic;
+    color: rgb(32, 143, 183);
+    font-family: Arial;
+}
 
+.biscuit_2P {
+    font-size: 25px;
+    font-style: italic;
+    color: rgb(32, 143, 183);
+    font-family: Arial;
+}
+
+.trapezoid_4.changed_chocolate_biscuit_1 {
+    border-top: 80px solid #371D10;
+}
+
+.trapezoid_4.changed_vanilla_biscuit_1 {
+    border-top: 80px solid #f3e5ab;
+}
+
+.trapezoid_4.changed_red_velvet_biscuit_1 {
+    border-top: 80px solid #960018;
+}
+
+.trapezoid_3.changed_chocolate_cream {
+    border-top: 80px solid #683a0a;
+}
+
+.trapezoid_3.changed_vanilla_cream {
+    border-top: 80px solid #b5961b;
+}
+
+.trapezoid_3.changed_strawberry_cream {
+    border-top: 80px solid #a8595a;
+}
+
+.trapezoid_3.changed_mango_cream {
+    border-top: 80px solid #e7bf43;
+}
+
+.trapezoid_2.changed_blueberries_interlayer {
+    border-top: 40px solid #c333cd;
+}
+
+.trapezoid_2.changed_strawberry_interlayer {
+    border-top: 40px solid #7e1026b9;
+}
+
+.trapezoid_2.changed_mango_interlayer {
+    border-top: 40px solid #ded2ab;
+}
+
+.trapezoid_2.changed_caramel_interlayer {
+    border-top: 40px solid #AF6F09;
+}
+
+.trapezoid_2.changed_chocolate_interlayer {
+    border-top: 40px solid #4a330d;
+}
+
+.trapezoid_2.changed_chocolate_interlayer {
+    border-top: 40px solid #4a330d;
+}
+
+.trapezoid_1.changed_chocolate_biscuit_2 {
+    border-top: 80px solid #371D10;
+}
+
+.trapezoid_1.changed_vanilla_biscuit_2 {
+    border-top: 80px solid #f3e5ab;
+}
+
+.trapezoid_1.changed_red_velvet_biscuit_2 {
+    border-top: 80px solid #960018;
 }
