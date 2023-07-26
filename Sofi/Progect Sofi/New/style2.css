@@ -76,6 +76,91 @@
     font-family: Arial;
 }
 
+.chocolate_biscuit_1, .vanilla_biscuit_1, .red_velvet_biscuit_1, .chocolate_cream, .vanilla_cream, .strawberry_cream, .mango_cream,
+.blueberries_interlayer, .strawberry_interlayer, .mango_interlayer, .caramel_interlayer, .chocolate_interlayer,
+.chocolate_biscuit_2, .vanilla_biscuit_2, .red_velvet_biscuit_2
+{
+    width: 100px;
+    height: 50px;
+    transition: all 0.6s ease;
+    border: 3px solid #341f23b9;
+    font-style: italic;
+    font-family: Arial;
+    font-size: 20;
+}
+
+.chocolate_biscuit_1:hover, .vanilla_biscuit_1:hover, .red_velvet_biscuit_1:hover, .chocolate_cream:hover, .vanilla_cream:hover, .strawberry_cream:hover, .mango_cream:hover,
+.blueberries_interlayer:hover, .strawberry_interlayer:hover, .mango_interlayer:hover, .caramel_interlayer:hover, .chocolate_interlayer:hover,
+.chocolate_biscuit_2:hover, .vanilla_biscuit_2:hover, .red_velvet_biscuit_2:hover
+{
+    text-decoration: none ; 
+    background-color: rgb(61, 158, 199) ;
+    color: #ffeded ;
+    border-color: #006089 ;
+}
+
+
+.chocolate_biscuit_1{
+    background-color: #371D10;
+}
+
+.vanilla_biscuit_1{
+    background-color: #f3e5ab;
+}
+
+.red_velvet_biscuit_1{
+    background-color: #960018;
+}
+
+.chocolate_cream{
+    background-color: #683a0a;
+
+}
+
+.vanilla_cream{
+    background-color: #b5961b;
+}
+
+.strawberry_cream{
+    background-color: #a8595a;
+}
+
+.mango_cream{
+    background-color: #e7bf43;
+}
+
+.blueberries_interlayer{
+    background-color: #c333cd;
+}
+
+.strawberry_interlayer{
+    background-color: #7e1026b9;
+}
+
+.mango_interlayer{
+    background-color: #ded2ab;
+}
+
+.caramel_interlayerlayer{
+    background-color: #AF6F09;
+}
+
+.chocolate_interlayer{
+    background-color: #4a330d;
+}
+
+.chocolate_biscuit_2{
+    background-color: #371D10;
+}
+
+.vanilla_biscuit_2{
+    background-color: #f3e5ab;
+}
+
+.red_velvet_biscuit_2{
+    background-color: #960018;
+}
+
 .trapezoid_4.changed_chocolate_biscuit_1 {
     border-top: 80px solid #371D10;
 }
@@ -124,9 +209,6 @@
     border-top: 40px solid #4a330d;
 }
 
-.trapezoid_2.changed_chocolate_interlayer {
-    border-top: 40px solid #4a330d;
-}
 
 .trapezoid_1.changed_chocolate_biscuit_2 {
     border-top: 80px solid #371D10;
